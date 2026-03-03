@@ -11,7 +11,7 @@ NextApiResponse) {
 connection successful. Running in ${environment}. DATABASE_URL: ${dbUrl}` });
     } catch (err) {
         res.status(500).json({ error: 'Database connection failed',
-            details: (err as Error).message, message: `Sparks Database connection
+            details: (err as Error).message, message: `Jared's Database connection
 failed. Running in ${environment}. DATABASE_URL: ${dbUrl}` });
     }
 }
